@@ -8,6 +8,8 @@ import { ServiceCard } from './components/ServiceCard';
 
 const SceneBackground = lazy(() => import('./components/SceneBackground').then(module => ({ default: module.SceneBackground })));
 
+const aboutImage = new URL('./assets/hairitage2.webp', import.meta.url).href;
+
 const fadeInUp = {
   hidden: { opacity: 0, y: 45 },
   show: { opacity: 1, y: 0 },
@@ -131,7 +133,7 @@ export default function App() {
             </div>
           </motion.div>
           <motion.div initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} variants={fadeInUp} className="overflow-hidden rounded-[2rem] bg-slate-900/60 shadow-soft">
-            <img src="hairitage2.webp" alt="Premium barbershop styling" className="h-full w-full object-cover" />
+            <img src={aboutImage} alt="Premium barbershop styling" className="h-full w-full object-cover" />
           </motion.div>
         </div>
       </section>

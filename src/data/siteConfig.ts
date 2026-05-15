@@ -17,7 +17,7 @@ export const heroContent = {
   headline: 'Fresh Cuts. Clean Fades.',
   subtitle: 'Farmington’s trusted modern barbershop.',
   phone: '+1 (860) 555-0124',
-  heroImage: 'hairitage.webp',
+  heroImage: new URL('../assets/hairitage.webp', import.meta.url).href,
 };
 
 export const services = [
