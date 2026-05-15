@@ -2,7 +2,7 @@
   "name": "the-hairitage-barbershop",
   "version": "1.0.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://darkxninja.github.io/website-template",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
