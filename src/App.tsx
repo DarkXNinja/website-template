@@ -48,7 +48,7 @@ export default function App() {
       <header className="sticky top-0 z-50 border-b border-white/10 bg-ink/95 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10">
           <a href="#home" className="text-lg font-semibold tracking-[0.2em] uppercase text-white">
-            The Hairitage
+            The Hairitage Barbershop
           </a>
           <nav className="hidden items-center gap-8 md:flex">
             {navLinks.map(link => (
